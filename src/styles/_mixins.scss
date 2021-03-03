@@ -1,0 +1,37 @@
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin flex-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@mixin flex-end {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+@mixin container {
+	margin: 0 auto;
+	max-width: 1050px;
+}
+
+@mixin button {
+	padding: 5px 10px;
+	width: 100%;
+	border-radius: 3px;
+	cursor: pointer;
+	border: 0;
+}
+
+//media quries
+@mixin smallerThan($pixels) {
+	@media (max-width: $pixels) {
+		@content;
+	}
+}

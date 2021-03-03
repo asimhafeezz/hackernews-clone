@@ -1,0 +1,91 @@
+.navbarTop {
+	background-color: $blue;
+	.content {
+		.upper-section {
+			@include flex-end;
+			background-color: $deep-blue;
+			.content-container {
+				@include container;
+				width: 100%;
+				@include flex-end;
+				.content {
+					@include flex-end;
+					justify-content: space-around;
+					max-width: 320px;
+					width: 100%;
+					p {
+						font-size: 12.5px;
+						color: $white;
+						margin-right: 15px;
+						cursor: pointer;
+					}
+					.facebookicon-svg,
+					.linkedinicon-svg,
+					.twittericon-svg,
+					.youtubeicon-svg,
+					.signalsicon-svg {
+						cursor: pointer;
+					}
+				}
+			}
+		}
+		.lower-section {
+			@include container;
+			padding: 10px;
+			@include flex-between;
+			h1 {
+				font-size: 45px;
+				color: $white;
+			}
+			.button-section {
+				button {
+					@include flex-center;
+					@include button;
+					justify-content: baseline;
+					background-color: $yellow;
+					.emailicon-svg {
+						path {
+							fill: $dark-yellow;
+						}
+					}
+					p {
+						margin-left: 7px;
+						color: $dark-yellow;
+						font-size: 15px;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+		.lower-nav-lists {
+			background-color: #ffffff;
+			.nav-items {
+				@include container;
+				display: grid;
+				grid-template-columns: 1fr 0.3fr;
+				ul {
+					@include flex-between;
+					list-style-type: none;
+					li {
+						padding: 10px;
+						border-bottom: 3.5px solid #ffffff;
+						cursor: pointer;
+						justify-self: center;
+						font-size: 15px;
+						&:hover {
+							border-color: $deep-blue;
+						}
+					}
+				}
+				.icons {
+					@include flex-between;
+					justify-content: space-evenly;
+					.menuicon-svg,
+					.searchcon-svg {
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+}
