@@ -6,6 +6,8 @@ import { ReactComponent as SignalsIcon } from './signals.svg'
 import { ReactComponent as EmailIcon } from './email.svg'
 import { ReactComponent as SearchIcon } from './search.svg'
 import { ReactComponent as MenuIcon } from './menu.svg'
+import { ReactComponent as CalenderIcon } from './calender.svg'
+import { ReactComponent as UserProfileIcon } from './userprofile.svg'
 
 export {
 	YoutubeIcon,
@@ -16,4 +18,6 @@ export {
 	EmailIcon,
 	SearchIcon,
 	MenuIcon,
+	CalenderIcon,
+	UserProfileIcon,
 }

@@ -1,3 +1,6 @@
 import { NavbarTop } from './navbarTop'
+import { NewsCard } from './newsCard'
+import { NewsCardPopular } from './newsCardPapular'
+import { NewsGrid } from './newsGrid'
 
-export { NavbarTop }
+export { NavbarTop, NewsCardPopular, NewsGrid, NewsCard }

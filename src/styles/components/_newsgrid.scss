@@ -1,0 +1,17 @@
+.news-grid {
+	@include container;
+	display: grid;
+	grid-template-columns: 1fr 0.3fr;
+	gap: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	.right-section {
+		h1 {
+			font-weight: bold;
+			border-bottom: 5px solid black;
+			padding-bottom: 5px;
+			display: inline-block;
+			margin-bottom: 20px;
+		}
+	}
+}
