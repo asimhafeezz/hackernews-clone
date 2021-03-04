@@ -8,6 +8,8 @@ import { ReactComponent as SearchIcon } from './search.svg'
 import { ReactComponent as MenuIcon } from './menu.svg'
 import { ReactComponent as CalenderIcon } from './calender.svg'
 import { ReactComponent as UserProfileIcon } from './userprofile.svg'
+import { ReactComponent as RightArrowIcon } from './rightArrow.svg'
+import { ReactComponent as InstagramIcon } from './instagram.svg'
 
 export {
 	YoutubeIcon,
@@ -20,4 +22,6 @@ export {
 	MenuIcon,
 	CalenderIcon,
 	UserProfileIcon,
+	RightArrowIcon,
+	InstagramIcon,
 }

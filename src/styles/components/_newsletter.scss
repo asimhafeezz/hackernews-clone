@@ -1,0 +1,41 @@
+.news-letter {
+	background-color: $blue;
+	border: 10px solid $deep-blue;
+	.content {
+		@include container;
+		max-width: 500px;
+		min-height: 200px;
+		padding: 0 10px;
+		color: $white;
+		@include flex-between;
+		justify-content: space-evenly;
+		align-items: baseline;
+		flex-direction: column;
+		h1 {
+			font-size: 23px;
+		}
+		.email-section {
+			position: relative;
+			width: 100%;
+			input {
+				@include input-text;
+				position: relative;
+			}
+			.button-section {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				padding-right: 5px;
+				@include flex-end;
+				button {
+					@include button;
+					padding: 8.5px 20px;
+					width: auto;
+					background-color: $ultra-light-blue;
+				}
+			}
+		}
+	}
+}

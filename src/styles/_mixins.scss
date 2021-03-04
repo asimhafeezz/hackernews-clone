@@ -29,6 +29,14 @@
 	border: 0;
 }
 
+@mixin input-text {
+	padding: 18px;
+	width: 100%;
+	font-size: 16px;
+	border: 0;
+	border-radius: 3px;
+}
+
 //media quries
 @mixin smallerThan($pixels) {
 	@media (max-width: $pixels) {
