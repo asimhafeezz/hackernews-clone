@@ -33,6 +33,12 @@ export const NavbarTop: React.FC = () => {
 							<p>Subscribe to Newsletter</p>
 						</button>
 					</section>
+					<section className='icons-container'>
+						<section className='icons'>
+							<SearchIcon />
+							<MenuIcon />
+						</section>
+					</section>
 				</section>
 				<section className='lower-nav-lists'>
 					<section className='nav-items'>
