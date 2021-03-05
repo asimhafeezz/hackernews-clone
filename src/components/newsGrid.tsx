@@ -12,6 +12,7 @@ export const NewsGrid: React.FC = () => {
 				<NewsCard />
 				<NewsCard />
 				<NewsCard />
+				<NewsCard />
 			</section>
 			<section className='right-section'>
 				<h1>Popular This Week</h1>
